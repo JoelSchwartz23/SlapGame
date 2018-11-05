@@ -1,0 +1,37 @@
+.main-bg{
+  background-image: url("/Assets/SSBU_Midgar_Omega.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.title{
+  justify-content: center;
+}
+
+.cloud{
+  justify-content: center;
+  align-self: flex-end;
+  transform: rotateY(180deg);
+}
+
+.sephiroth{
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.skillsbox{
+  background: blue;
+  border: 5px solid silver;
+  border-radius: 10px;
+  height: 22vh;
+}
+
+.box{
+  height: 15vh;
+}
+
+.button{
+ display: block;
+    border: 1px solid green;
+}
