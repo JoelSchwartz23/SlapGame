@@ -33,21 +33,19 @@
       </div>
       <div class="row">
         <div class="col-4 skillsbox">
-          <h2>Attacks</h2>
           <button onclick="attack()">Attack</button>
-          <button onclick="cut()">4x-Cut</button>
+          <button onclick="grenade()">Grenade</button>
           <button onclick="bolt3()">Bolt3</button>
           <div class="row">
             <div class="col-12">
-              <h2>Items</h2>
-              <button onclick="grenade()">Grenade</button>
-              <button onclick="molotov()">Molotov</button>
+              <button onclick="giveitem(1)">4x-cut</button>
+              <button onclick="giveitem(2)">Shrapnel</button>
+              <button onclick="giveitem(3)">Magic Source</button>
             </div>
           </div>
         </div>
         <div class="col-8 skillsbox">
-          <span>Sephiroth:<span id="health">1000</span></span>
-          <button onclick="heal()">Heal</button>
+          <span>Sephiroth:<span id="health"></span></span>
         </div>
       </div>
     </div>
