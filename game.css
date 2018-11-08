@@ -33,12 +33,11 @@
 
 .button{
  display: block;
-    border: 1px solid green;
 }
 span {
   color: whitesmoke;
 }
 
-h2 {
+h2{
   color: whitesmoke;
 }
